@@ -1,0 +1,24 @@
+.home {
+    padding: 15rem 30rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #faf7f2;
+    color: #4a3c31;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    font-family: 'Georgia', serif;
+    font-size: 1.3rem;
+    line-height: 1.6;
+  }
+  
+  .home h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+  
+  .home p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  

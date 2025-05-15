@@ -1,0 +1,27 @@
+.services {
+    padding: 15rem 40rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff8f0;
+    color: #6b4c3b;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .services ul {
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .services li {
+    margin-bottom: 0.75rem;
+  }
+  

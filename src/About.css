@@ -1,0 +1,22 @@
+.about {
+    padding: 15rem 30rem;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f3e9dc;
+    color: #5a422a;
+    border-radius: 8px;
+    font-family: 'Georgia', serif;
+    font-size: 1.25rem;
+    line-height: 1.6;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .about p {
+    margin-bottom: 1.5rem;
+  }
+  
