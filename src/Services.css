@@ -1,27 +1,39 @@
 .services {
-    padding: 15rem 40rem;
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #fff8f0;
-    color: #6b4c3b;
-    border-radius: 8px;
-    font-family: 'Georgia', serif;
-    font-size: 1.25rem;
-    line-height: 1.6;
-  }
-  
-  .services h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-  }
-  
-  .services ul {
-    margin-left: 1.5rem;
-    font-size: 1.2rem;
-  }
-  
-  .services li {
-    margin-bottom: 0.75rem;
-  }
-  
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 15rem 30rem;
+  color: #4e342e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefaf6;
+  min-height: 80vh;
+  text-align: left;
+}
+
+.services h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.services p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.services ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.services li {
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+}
+
+.services strong {
+  color: #6d4c41;
+}

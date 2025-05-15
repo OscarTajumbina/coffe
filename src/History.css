@@ -1,21 +1,31 @@
 .history {
-  padding: 15rem 20rem;
   max-width: 900px;
-  margin: 0 auto;
-  background-color: #f9f3ec;
-  color: #5c4a39;
-  border-radius: 8px;
-  font-family: 'Georgia', serif;
-  font-size: 1.25rem;
-  line-height: 1.6;
+  margin: 4rem auto;
+  padding: 15rem 30rem;
+  color: #4e342e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefaf6;
+  min-height: 80vh;
+  text-align: center;
 }
 
 .history h2 {
   font-size: 2.5rem;
-  margin-bottom: 1rem;
-  font-weight: 700;
+  margin-bottom: 1.5rem;
 }
 
 .history p {
-  margin-bottom: 1.5rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.history article {
+  margin-bottom: 2.5rem;
+}
+
+.history h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #6d4c41;
 }

@@ -1,32 +1,42 @@
-/* Contact.css */
-
-.contact {
-  background-color: #1e1e1e; /* fondo oscuro */
-  color: #f0f0f0; /* texto claro */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 15rem 40rem;
-  max-width: 600px;
-  margin: 2rem auto;
-  border-radius: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+  background: #574444;
+  min-height: 100vh;
 }
 
-.contact h2 {
+.contact-title {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #ff9800; /* tono naranja para resaltar */
-  text-align: center;
-  letter-spacing: 1.5px;
 }
 
-.contact p {
-  font-size: 1.2rem;
-  margin: 0.7rem 0;
-  line-height: 1.5;
+.contact-message {
+  background: #352a2a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 1.5rem;
+  max-width: 500px;
   text-align: center;
-  color: #ccc;
+  font-size: 1.1rem;
+  color: #d1acac;
 }
 
-.contact p strong {
-  color: #ffa726; /* un naranja más suave para énfasis */
+.contact-button {
+  background-color: #ff5722;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  color: rgb(64, 37, 37);
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #e64a19;
 }

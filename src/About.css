@@ -1,22 +1,31 @@
 .about {
-    padding: 15rem 30rem;
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #f3e9dc;
-    color: #5a422a;
-    border-radius: 8px;
-    font-family: 'Georgia', serif;
-    font-size: 1.25rem;
-    line-height: 1.6;
-  }
-  
-  .about h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-  }
-  
-  .about p {
-    margin-bottom: 1.5rem;
-  }
-  
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 15rem 30rem;
+  color: #4e342e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefaf6;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.about article {
+  margin-bottom: 2.5rem;
+}
+
+.about h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+  color: #6d4c41;
+}
