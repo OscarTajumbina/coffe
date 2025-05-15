@@ -1,22 +1,32 @@
+/* Contact.css */
+
 .contact {
-    padding: 20rem 40rem;
-    max-width: 900px;
-    margin: 0 auto;
-    background-color: #f4f8e7;
-    color: #4c6b39;
-    border-radius: 8px;
-    font-family: 'Georgia', serif;
-    font-size: 1.25rem;
-    line-height: 1.6;
-  }
-  
-  .contact h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
-  }
-  
-  .contact p {
-    margin-bottom: 1.5rem;
-  }
-  
+  background-color: #1e1e1e; /* fondo oscuro */
+  color: #f0f0f0; /* texto claro */
+  padding: 15rem 40rem;
+  max-width: 600px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ff9800; /* tono naranja para resaltar */
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.contact p {
+  font-size: 1.2rem;
+  margin: 0.7rem 0;
+  line-height: 1.5;
+  text-align: center;
+  color: #ccc;
+}
+
+.contact p strong {
+  color: #ffa726; /* un naranja más suave para énfasis */
+}
